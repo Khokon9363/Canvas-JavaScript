@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+    color: rebeccapurple;
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
+.vartical-center{
+    background-color: #c4ecf3;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 7px 7px cornflowerblue;
+    padding: 20px;
+}
+.lessons{
+    list-style-type: disclosure-closed;
+    line-height: 30px;
+}
+.lessons a{
+    text-decoration: none;
+    font-weight: bold;
+}
